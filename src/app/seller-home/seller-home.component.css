@@ -1,0 +1,23 @@
+table{
+    text-align: left;
+    color: cadetblue;
+    border-collapse: collapse;
+}
+
+table td,table th{
+    border: 1px solid cadetblue;
+    padding: 10px;
+    min-height: 160px;
+}
+table th{
+    background-color: lightgray;
+}
+/* table th{
+    border: 1px solid cadetblue;
+    padding: 10px;
+    min-height: 160px;
+} */
+img{
+    height: 100px;
+    width: 100px;
+}

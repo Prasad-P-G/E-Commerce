@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+}
+
+
+.form-input {
+    height: 35px;
+    margin: 10px;
+    padding-left: 10px;
+    border: 1px solid cadetblue;
+    color: cadetblue;
+}
+
+.form-button {
+    height: 35px;
+    border: 1px solid cadetblue;
+    cursor: pointer;
+    margin: 5px,
+}
+
+.message-p {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error-p {
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+fa-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    align-content: center;
+}
+
+
+.carousel-caption {
+    background: #808080b0;
+    border-radius: 10px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+    border: 5px;
+}
+
+.invalid-input {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+.max-width {
+    width: 100%;
+}

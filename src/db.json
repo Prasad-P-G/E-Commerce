@@ -1,0 +1,291 @@
+{
+  "users": [
+    {
+      "name": "prasad",
+      "email": "prasad@test.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@test.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "Prasad G",
+      "email": "prasad@test.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "kiran",
+      "email": "kiran@test.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "name": "yadav",
+      "email": "yadav@test.com",
+      "password": "abc123",
+      "id": 5
+    },
+    {
+      "name": "peter",
+      "email": "peter@test.com",
+      "password": "abc123",
+      "id": 6
+    }
+  ],
+  "seller": [
+    {
+      "name": "Prasad",
+      "email": "prasad@gmail.com",
+      "password": "prasad@123",
+      "id": 1
+    },
+    {
+      "name": "Sam",
+      "email": "Sam@gmail.com",
+      "password": "Sam@123",
+      "id": 2
+    },
+    {
+      "name": "Guru",
+      "password": "Guru@123",
+      "email": "Guru@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Guru1",
+      "password": "Guru@123",
+      "email": "Guru1@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Guru1",
+      "password": "Guru@123",
+      "email": "Guru1@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Guru2",
+      "password": "Guru@123",
+      "email": "Guru2@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Guru3",
+      "password": "Guru@123",
+      "email": "Guru3@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "test1",
+      "password": "test123",
+      "email": "test1@g.com",
+      "id": 8
+    },
+    {
+      "name": "abc",
+      "password": "test123",
+      "email": "test1@g.com",
+      "id": 9
+    },
+    {
+      "name": "Guru121",
+      "password": "test123",
+      "email": "test1@g.com",
+      "id": 10
+    },
+    {
+      "name": "Guru222",
+      "password": "test123",
+      "email": "test1@g.com",
+      "id": 11
+    },
+    {
+      "name": "aaa1",
+      "password": "test123",
+      "email": "test1@g.com",
+      "id": 12
+    },
+    {
+      "name": "xtt1001",
+      "password": "test123",
+      "email": "test1@g.com",
+      "id": 13
+    },
+    {
+      "name": "Manu",
+      "password": "Manu@123",
+      "email": "test1@g.com",
+      "id": 14
+    },
+    {
+      "name": "Guru111",
+      "password": "test123",
+      "email": "test1@g.com",
+      "id": 15
+    },
+    {
+      "email": "test1@g.com",
+      "password": "test123",
+      "id": 16
+    },
+    {
+      "email": "Guru@gmail.com",
+      "password": "test123",
+      "id": 17
+    },
+    {
+      "email": "test101",
+      "password": "test123",
+      "id": 18
+    },
+    {
+      "name": "Sam",
+      "email": "Sam@gmail.com",
+      "password": "Sam@123",
+      "id": 19
+    },
+    {
+      "name": "pintu",
+      "password": "test123",
+      "email": "test1@g.com",
+      "id": 20
+    },
+    {
+      "name": "prasad@gmail.com",
+      "password": "1234",
+      "email": "test1@g.com",
+      "id": 21
+    },
+    {
+      "name": "Prasad G",
+      "password": "abc123",
+      "email": "prasad@gmail.com",
+      "id": 22
+    },
+    {
+      "name": "virat kohli",
+      "password": "abc123",
+      "email": "virat@test.com",
+      "id": 23
+    },
+    {
+      "name": "prasad@test.com",
+      "password": "abc123",
+      "email": "test1@g.com",
+      "id": 24
+    }
+  ],
+  "products": [
+    {
+      "name": "Vivo 90001",
+      "price": "8888",
+      "color": "purple",
+      "category": "Mobile",
+      "description": "Good product",
+      "image": "../assets/images/mobileVivo.jpg",
+      "id": 4
+    },
+    {
+      "name": "MI 500",
+      "price": "25000",
+      "color": "Grey",
+      "category": "Mobile",
+      "description": "good one",
+      "image": "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1680028893.42691134.jpg",
+      "id": 7
+    },
+    {
+      "name": "Motorola G60",
+      "price": "21999",
+      "color": "LightBlue",
+      "category": "Mobile",
+      "description": "worth buying",
+      "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G234331_View_1/mobiles/smartphones/motorola-g60-128-gb-frosted-champagne-6-gb-ram-.jpg",
+      "id": 8
+    },
+    {
+      "name": "Samsung Galaxy M13",
+      "price": "31497",
+      "color": "LightGreen",
+      "category": "Mobile",
+      "description": "Good Product in the market",
+      "image": "https://m.media-amazon.com/images/I/81-fFXQdPTL._SX679_.jpg",
+      "id": 9
+    },
+    {
+      "name": "Lenovo IPad Slim Intel celeron",
+      "price": "32499",
+      "color": "Black",
+      "category": "Laptop",
+      "description": "best in market",
+      "image": "https://m.media-amazon.com/images/I/61Dw5Z8LzJL._SX679_.jpg",
+      "id": 10
+    },
+    {
+      "name": "Urbano Fashion jeans",
+      "price": "670",
+      "color": "Blue",
+      "category": "Jeans",
+      "description": "Care Instructions: Wash dark colors separately\nFit Type: Slim Fit\nStylish & In-vogue Light Blue Washed Jeans\nSlim Fit; Mid-Rise; Regular Length; Zip Fly with Buttoned Closure; 2 Front & 2 Back Pockets\nPerfect for Casual, Evening & Office Wear",
+      "image": "https://m.media-amazon.com/images/I/71m0W58-zQL._UL1500_.jpg",
+      "id": 11
+    },
+    {
+      "name": "Noise Vivid Call Bluetooth Calling Smartwatch",
+      "price": "1699",
+      "color": "Black",
+      "category": "Fitness",
+      "description": "Bluetooth calling - Experience hands-free living by managing calls from your wrist. With Noise Buzz, you can access the dial pad, check recent calls & save contacts on the smartwatch itself.\n1.69 inches(4.29cms) display, 550 nits brightness - Get clear and bright views both indoor and outdoor.\nMetallic finish - Make heads turn every time you strap on the smartwatch with premium dial finish\nNoise Health SuiteTM - Take better care of your health with a series of health monitoring tools – Blood oxygen monitor, Sleep monitor & 24x7 heart rate monitor (Any of the mentioned health tracking features cannot be used as a substitute for a medical device. The readings can have slight variations.)\nAI voice assistant - Conduct quick web searches & get all your queries answered by activating your smartphone's voice assistant.",
+      "image": "https://m.media-amazon.com/images/I/417sL05uZaL._AC_SR400,600_.jpg",
+      "id": 12
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "peter@test.com",
+      "address": "Mumbai,Maharastra,India",
+      "contact": "06364302933",
+      "totalPrice": 60627,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "email": "prasad@test.com",
+      "address": "Bangalore",
+      "contact": "06364302933",
+      "totalPrice": 60627,
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "email": "peter@test.com",
+      "address": "Bangalore",
+      "contact": "06364302933",
+      "totalPrice": 44038,
+      "userId": 2,
+      "id": 14
+    },
+    {
+      "email": "peter@test.com",
+      "address": "Bangalore",
+      "contact": "06364302933",
+      "totalPrice": 1739,
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "email": "peter@test.com",
+      "address": "Bangalore",
+      "contact": "06364302933",
+      "totalPrice": 8928,
+      "userId": 2,
+      "id": 16
+    }
+  ]
+}
