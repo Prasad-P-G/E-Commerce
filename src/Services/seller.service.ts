@@ -13,12 +13,16 @@ export class SellerService {
   isLoginError=new EventEmitter<boolean>(false);
   constructor(private http: HttpClient, private router: Router) { }
 
+  // http://localhost:81/api/seller/search/peter
+  // http://localhost:3000/seller
   userSignUp(data: SignUP) {
-    this.http.post('http://localhost:3000/seller', data, { observe: 'response' })
+    this.http.post('http://localhost:81/api/seller', data, { observe: 'response' })
       .subscribe((result) => {
+        console.warn((result.body))
+        
         this.isSellerLoggedIn.next(true);
-        localStorage.setItem('seller', JSON.stringify(result.body))
-        this.router.navigate(['seller-home']);
+        localStorage.setItem('seller', JSON.stringify(result.body)[0])
+        //this.router.navigate(['seller-home']);
       });
     return false;
   }
@@ -30,17 +34,20 @@ export class SellerService {
     }
   }
 
+  // http://localhost:3000/seller?email=
   UserLogin(data: login) {
-    console.warn(data.email + '' + data.password);
-     let url:string = "http://localhost:3000/seller?email="+data.email+ "&password=" + data.password;
+    console.warn(data.email + ' ' + data.password);
+    //  let url:string = 'http://localhost:81/api/seller/'+data.email+ "&password=" + data.password;
+    let url:string = 'http://localhost:81/api/seller/'+data.email+ "/" + data.password;
      //this.http.get('http://localhost:3000/seller?email=${data.email}&password=${data.password}',
     this.http.get(url,
-      { observe: 'response' })
-      .subscribe((result:any) => {
-        if((result) && result.body && result.body.length){
+      { observe: 'response' }).subscribe((result:any) => {
+        console.warn(result.body);        
+        if(result.body){
         console.warn("Valid user");
         this.isSellerLoggedIn.next(true);
         localStorage.setItem('seller', JSON.stringify(result.body))
+        //localStorage.setItem('seller', JSON.stringify(result))
         this.router.navigate(['seller-home']);
         }else{
           console.warn("Invalid user");

@@ -16,8 +16,7 @@ export class SellerAuthComponent implements OnInit {
    this.seller.reloadSeller();
   }
 
-  SignUp(data:SignUP):void{
-    console.warn(data);
+  SignUp(data:SignUP):void{    
     this.seller.userSignUp(data);
     // this.seller.userSignUp(data).subscribe((result)=>{
     //   //console.warn("Before IF")

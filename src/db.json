@@ -35,6 +35,12 @@
       "email": "peter@test.com",
       "password": "abc123",
       "id": 6
+    },
+    {
+      "name": "kiran",
+      "email": "kiran@test.com",
+      "password": "abc123",
+      "id": 7
     }
   ],
   "seller": [
